@@ -32,6 +32,7 @@
 
 ## :zap: Tecnologias
 
+- Typescript
 - ReactJS
 - Styled Components
 - Componentização
