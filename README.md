@@ -25,8 +25,8 @@
 
 ## :sparkles: Funcionalidades
 
-- Cadastro de e-mail do cliente para envio de promoções;
-- Design responsivo;
+- Cadastro de e-mail do cliente para envio de promoções
+- Design responsivo
 
 <h6 id="technologies">
 
