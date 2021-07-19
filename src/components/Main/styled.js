@@ -55,7 +55,7 @@ export const Main = styled.main`
 
 	.cardsBox {
 		width: 100%;
-		max-width: 640px;
+		max-width: 40rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
