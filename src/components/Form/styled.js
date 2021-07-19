@@ -10,6 +10,7 @@ export const Form = styled.form`
 
 	h2 {
 		color: #fafafa;
+		text-align: center;
 	}
 
 	fieldset {
