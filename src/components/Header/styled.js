@@ -16,7 +16,7 @@ export const Header = styled.header`
 
 		img {
 			width: 100%;
-			max-width: 640px;
+			max-width: 720px;
 		}
 	}
 `;
