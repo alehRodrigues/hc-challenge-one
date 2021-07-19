@@ -6,8 +6,10 @@ export const Footer = styled.footer`
 	justify-content: center;
 	position: fixed;
 
+	left: 0;
 	bottom: 0;
-	padding: 1rem 1rem;
+
+	padding: 1rem;
 
 	.wrapper {
 		width: 100%;
@@ -17,6 +19,7 @@ export const Footer = styled.footer`
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		gap: 1rem;
 	}
 
 	.social {
@@ -24,7 +27,7 @@ export const Footer = styled.footer`
 		gap: 1rem;
 
 		a img {
-			width: 1rem;
+			width: 1.2rem;
 			transition: all 0.2s;
 
 			&:hover {
@@ -36,5 +39,10 @@ export const Footer = styled.footer`
 	p {
 		color: #fafafa;
 		font-size: 1rem;
+
+		img {
+			width: 1.6rem;
+			transform: translateY(4px);
+		}
 	}
 `;

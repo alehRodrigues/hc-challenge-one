@@ -5,6 +5,7 @@ import iconLinkedin from "../../assets/icons/linkedin.svg";
 import iconInstagram from "../../assets/icons/instagram.svg";
 import iconTwitter from "../../assets/icons/twitter.svg";
 import iconGmail from "../../assets/icons/gmail.svg";
+import iconHeart from "../../assets/icons/heart.svg";
 
 export default function Footer() {
 	return (
@@ -48,7 +49,7 @@ export default function Footer() {
 					</a>
 				</div>
 				<p>
-					Feito com <span>amor</span> por Stenio Almeida.
+					Feito com <img src={iconHeart} alt="Coração" /> por Stenio Almeida.
 				</p>
 			</div>
 		</styled.Footer>
