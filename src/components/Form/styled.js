@@ -52,6 +52,7 @@ export const Form = styled.form`
 
 			&:hover {
 				background-color: #dec91b;
+				transform: scale(1.1);
 			}
 		}
 	}

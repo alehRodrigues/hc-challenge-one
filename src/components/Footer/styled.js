@@ -44,5 +44,9 @@ export const Footer = styled.footer`
 			width: 1.6rem;
 			transform: translateY(4px);
 		}
+
+		span {
+			font-weight: 700;
+		}
 	}
 `;

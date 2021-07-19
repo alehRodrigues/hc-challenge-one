@@ -49,7 +49,8 @@ export default function Footer() {
 					</a>
 				</div>
 				<p>
-					Feito com <img src={iconHeart} alt="Coração" /> por Stenio Almeida.
+					Feito com <img src={iconHeart} alt="Coração" /> por{" "}
+					<span>Stenio Almeida</span>.
 				</p>
 			</div>
 		</styled.Footer>
