@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
+	position: relative;
 	width: 100%;
 	max-width: 900px;
 	height: 100%;
@@ -44,22 +45,38 @@ export const Main = styled.main`
 				font-weight: 700;
 			}
 		}
+	}
 
-		& + .content {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-		}
+	.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 
-		& + .cardsBox {
-			width: 100%;
-			max-width: 900px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			gap: 1rem;
+	.cardsBox {
+		width: 100%;
+		max-width: 640px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
 
-			margin-top: 2rem;
-		}
+		margin-top: 2rem;
+	}
+`;
+
+export const Off50 = styled.img`
+	position: absolute;
+	width: 25%;
+	top: 0;
+	right: 0;
+	margin-top: -40px;
+
+	@media screen and (max-width: 820px) {
+		margin-top: -10px;
+	}
+
+	@media screen and (max-width: 600px) {
+		visibility: hidden;
 	}
 `;
